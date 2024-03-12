@@ -1,5 +1,5 @@
 escolhaUsuario = prompt("★ Bem Vindo ao jogo da sorte! ★ \nEscolha par ou ímpar:")
-numSorteado = Math.floor(Math.random() * 100)
+numSorteado = Math.floor((Math.random() * 99)+1)
 
 if (numSorteado % 2 === 0) {
   numResultado = "par"
