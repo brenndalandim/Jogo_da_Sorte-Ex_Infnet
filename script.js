@@ -8,7 +8,7 @@ if (numSorteado % 2 === 0) {
 }
 
 if (escolhaUsuario != "par" && escolhaUsuario != "ímpar") {
-  alert("Você não escolheu par ou ímpar \n==========\n Você Perdeu!\n==========")
+  alert("Você não escolheu par ou ímpar \n=============\n Tente Novamente!\n=============")
 } else {
   if (escolhaUsuario === "par" && numResultado === "par") {
     alert(`O número sorteado foi ${numSorteado} \n==========\n Você Ganhou!\n==========`)
